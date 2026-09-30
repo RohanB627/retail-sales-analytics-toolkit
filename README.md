@@ -16,6 +16,7 @@ December 2011 (the final month) is a partial month — data stops on the 9th —
 Top product by revenue: REGENCY CAKESTAND 3 TIER (£174,485), which anchors the Excel loan and Solver models below
 Average order value: £500.65
 Order value was concentrated at the lower end — most orders fell between £0–£400, with far fewer orders at the higher end of the range
+
 Project structure
 retail-sales-analytics-toolkit/
 ├── excel/
@@ -27,6 +28,7 @@ retail-sales-analytics-toolkit/
 ├── data/
 │   └── real_monthly_sales_wide.xlsx       # Top 10 products x 13 months, wide format
 └── README.md
+
 Excel workbook — what's inside
 
 Monthly Sales (Wide → Long). Started from a pivoted top-10-products × 13-months report and unpivoted it with Power Query (Unpivot Other Columns), producing a clean Product/Month/Revenue table — verified total: £969,922.
@@ -50,7 +52,7 @@ A Top 10 Country filter and cross-filter dashboard action between the country an
 
 Analysis summary: Among the top 10 countries, the UK had the highest revenue, crossing £8 million — over 85% of total revenue. "Regency Cakestand 3 Tier" had the strongest cumulative revenue of any product across the Dec 2010–Dec 2011 period. Order value was concentrated at the lower end, between £0–£400, with fewer orders at the higher end of the range.
 
-Live dashboard: Online Retail Analytics (UCI Dataset) — Tableau Public
+Live dashboard: [Online Retail Analytics (UCI Dataset) — Tableau Public](https://public.tableau.com/app/profile/rohan.b2206/viz/OnlineRetailAnalyticsUCIDataset/Dashboard1)
 
 Tools used
 
